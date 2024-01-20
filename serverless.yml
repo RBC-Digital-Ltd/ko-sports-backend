@@ -6,7 +6,7 @@ provider:
   runtime: nodejs20.x
 
 plugins:
-  - serverless-better-credentials
+  - serverless-offline
 
 functions:
   function1:

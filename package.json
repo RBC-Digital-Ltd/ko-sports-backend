@@ -5,7 +5,9 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev": "serverless offline"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
@@ -14,6 +16,7 @@
     "@types/node": "^20.11.5",
     "serverless": "^3.38.0",
     "serverless-better-credentials": "^2.0.0",
+    "serverless-offline": "^13.3.3",
     "typescript": "^5.3.3"
   }
 }
