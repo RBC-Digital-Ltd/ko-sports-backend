@@ -1,9 +1,12 @@
-service: aws-node-project
+service: ko-sports-backend
 frameworkVersion: "3"
 
 provider:
   name: aws
   runtime: nodejs20.x
+
+plugins:
+  - serverless-better-credentials
 
 functions:
   function1:

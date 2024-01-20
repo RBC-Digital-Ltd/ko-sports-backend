@@ -13,6 +13,7 @@
     "@types/aws-lambda": "^8.10.131",
     "@types/node": "^20.11.5",
     "serverless": "^3.38.0",
+    "serverless-better-credentials": "^2.0.0",
     "typescript": "^5.3.3"
   }
 }
