@@ -6,7 +6,8 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "serverless offline"
+    "dev": "serverless offline",
+    "deploy": "serverless deploy"
   },
   "engines": {
     "node": ">=20.0.0"

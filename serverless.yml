@@ -4,6 +4,9 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs20.x
+  region: eu-west-1
+  environment:
+    API_VERSION: ${env:API_VERSION}
 
 plugins:
   - serverless-offline
