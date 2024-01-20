@@ -8,5 +8,9 @@
   "scripts": {},
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
   }
 }
