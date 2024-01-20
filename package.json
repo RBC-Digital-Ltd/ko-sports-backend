@@ -1,0 +1,12 @@
+{
+  "name": "ko-sports-backend",
+  "version": "0.0.1",
+  "repository": "git@github.com:RBC-Digital-Ltd/ko-sports-backend.git",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
