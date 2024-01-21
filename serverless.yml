@@ -19,6 +19,9 @@ custom:
     packager: "yarn"
     external:
       - "@sentry/profiling-node"
+    packagerOptions:
+      scripts:
+        - "yarn add @sentry/profiling-node"
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
