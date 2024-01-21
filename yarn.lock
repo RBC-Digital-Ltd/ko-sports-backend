@@ -4092,7 +4092,6 @@ __metadata:
     "@types/aws-lambda": "npm:^8.10.131"
     "@types/node": "npm:^20.11.5"
     serverless: "npm:^3.38.0"
-    serverless-better-credentials: "npm:^2.0.0"
     serverless-offline: "npm:^13.3.3"
     typescript: "npm:^5.3.3"
   languageName: unknown
@@ -5270,19 +5269,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 5160b06975a38b11c1ab55950cb5b8a23db78df88275d3d8a42ccf1f29e55112ac995b3a26a522c36e3b5f76b0445f1eef70d696b8c7862a2b4303d7b0e7609e
-  languageName: node
-  linkType: hard
-
-"serverless-better-credentials@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "serverless-better-credentials@npm:2.0.0"
-  dependencies:
-    open: "npm:^8.4.2"
-  peerDependencies:
-    "@serverless/utils": ^6.0.2
-    aws-sdk: ^2.567.0
-    serverless: ^2 || ^3
-  checksum: 1a6c71481b16b479ff136d0bc37a59ecdd210617ec5033b606953af493e800a757d7436c5839a5d170f016c8d459203701d321d6f0ead612a3b04dbf7a10b728
   languageName: node
   linkType: hard
 

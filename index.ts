@@ -1,6 +1,4 @@
-import { type APIGatewayProxyEventV2 } from "aws-lambda";
-
-module.exports.handler = async (event: APIGatewayProxyEventV2) => {
+module.exports.handler = async (event: AWSLambda.APIGatewayProxyEventV2) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
