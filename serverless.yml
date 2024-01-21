@@ -22,6 +22,7 @@ custom:
     packagerOptions:
       scripts:
         - "yarn add @sentry/profiling-node"
+      ignoreLockfile: true
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
