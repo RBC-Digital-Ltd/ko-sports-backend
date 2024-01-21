@@ -14,3 +14,7 @@ plugins:
 functions:
   function1:
     handler: index.handler
+    events:
+      - http:
+          path: /test
+          method: get
