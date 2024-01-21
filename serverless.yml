@@ -12,6 +12,9 @@ plugins:
   - serverless-esbuild
   - serverless-offline
 
+package:
+  individually: true
+
 custom:
   esbuild:
     bundle: true
@@ -19,12 +22,6 @@ custom:
     packager: "yarn"
     loader:
       .node: "copy"
-    # external:
-    #   - "@sentry/profiling-node"
-    # packagerOptions:
-    #   # scripts:
-    #   #   - "npm install @sentry/profiling-node"
-    #   ignoreLockfile: true
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
