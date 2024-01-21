@@ -40,7 +40,6 @@ jobs:
       - name: Set API Version
         run: echo "API_VERSION=$(npm pkg get version | xargs echo)-$GITHUB_SHA" >> $GITHUB_ENV
 
-      - run: yarn config set -H enableImmutableInstalls false
       - run: yarn deploy
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
