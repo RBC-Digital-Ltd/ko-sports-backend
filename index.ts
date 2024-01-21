@@ -7,7 +7,7 @@ module.exports.handler = async (event: AWSLambda.APIGatewayProxyEventV2) => {
         input: event,
       },
       null,
-      2
+      2,
     ),
   };
 };
