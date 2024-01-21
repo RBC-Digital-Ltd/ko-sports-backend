@@ -4,7 +4,6 @@
   "repository": "git@github.com:RBC-Digital-Ltd/ko-sports-backend.git",
   "private": true,
   "sideEffects": false,
-  "type": "module",
   "scripts": {
     "dev": "serverless offline",
     "deploy": "serverless deploy"

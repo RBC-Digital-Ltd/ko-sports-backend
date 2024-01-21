@@ -17,7 +17,6 @@ custom:
     bundle: true
     minify: false
     packager: "yarn"
-    platform: "neutral"
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
