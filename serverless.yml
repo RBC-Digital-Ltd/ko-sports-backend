@@ -17,12 +17,14 @@ custom:
     bundle: true
     minify: false
     packager: "yarn"
-    external:
-      - "@sentry/profiling-node"
-    packagerOptions:
-      scripts:
-        - "yarn add @sentry/profiling-node"
-      ignoreLockfile: true
+    loader:
+      .node: "copy"
+    # external:
+    #   - "@sentry/profiling-node"
+    # packagerOptions:
+    #   # scripts:
+    #   #   - "npm install @sentry/profiling-node"
+    #   ignoreLockfile: true
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
