@@ -2,6 +2,7 @@ import { wrapHandler } from "./utils/wrapHandler";
 
 export const handler = wrapHandler(
   async (event: AWSLambda.APIGatewayProxyEvent) => {
+    throw new Error("This should show up in Sentry!");
     return {
       statusCode: 200,
       headers: {
