@@ -8,12 +8,30 @@
 
 module.exports = {
   root: true,
-  extends: ["eslint:recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   parserOptions: {
     ecmaVersion: "latest",
   },
 
   overrides: [
+    // TS
+    {
+      extends: [
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      ],
+      files: ["./**/*.{ts}"],
+      parserOptions: {
+        project: true,
+        tsconfigRootDir: __dirname,
+      },
+    },
+
     // Node
     {
       files: [".eslintrc.cjs", "esbuild-plugin.cjs"],
