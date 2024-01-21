@@ -17,8 +17,10 @@ package:
 
 custom:
   esbuild:
+    sourcemap: true
     bundle: true
     minify: false
+    plugins: esbuild-plugin.cjs
     packager: "yarn"
     loader:
       .node: "copy"

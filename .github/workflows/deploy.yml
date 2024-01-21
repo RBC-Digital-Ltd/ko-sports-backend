@@ -42,3 +42,5 @@ jobs:
 
       - run: yarn config set -H enableImmutableInstalls false
       - run: yarn deploy
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
