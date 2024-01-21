@@ -9,11 +9,14 @@
 module.exports = {
   root: true,
   extends: ["eslint:recommended", "prettier"],
+  parserOptions: {
+    ecmaVersion: "latest",
+  },
 
   overrides: [
     // Node
     {
-      files: [".eslintrc.cjs"],
+      files: [".eslintrc.cjs", "esbuild-plugin.cjs"],
       env: {
         node: true,
       },
