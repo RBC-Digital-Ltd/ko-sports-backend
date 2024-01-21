@@ -12,7 +12,7 @@ export const handler = wrapHandler(
           message: "Go Serverless v3.0! Your function executed successfully!",
           input: event,
         },
-        null,
+        undefined,
         2,
       ),
     };
