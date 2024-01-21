@@ -26,6 +26,8 @@ jobs:
           cache: yarn
           cache-dependency-path: yarn.lock
 
+      - run: corepack enable
+
       - name: Login to AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
