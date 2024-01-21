@@ -19,5 +19,6 @@
     "serverless-better-credentials": "^2.0.0",
     "serverless-offline": "^13.3.3",
     "typescript": "^5.3.3"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }

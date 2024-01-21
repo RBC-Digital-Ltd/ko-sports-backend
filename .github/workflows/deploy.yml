@@ -33,7 +33,7 @@ jobs:
           role-session-name: KoSportsDeploy
           aws-region: eu-west-1
 
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
 
       - name: Set API Version
         run: echo "API_VERSION=$(npm pkg get version | xargs echo)-$GITHUB_SHA" >> $GITHUB_ENV
