@@ -17,6 +17,8 @@ custom:
     bundle: true
     minify: false
     packager: "yarn"
+    external:
+      - "@sentry/profiling-node"
     watch:
       pattern: ["src/**/*.ts"]
   serverless-offline:
