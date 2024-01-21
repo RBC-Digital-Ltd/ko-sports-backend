@@ -6,14 +6,26 @@ provider:
   runtime: nodejs20.x
   region: eu-west-1
   environment:
-    API_VERSION: ${env:API_VERSION}
+    API_VERSION: ${env:API_VERSION, '0.0.0-local'}
 
 plugins:
+  - serverless-esbuild
   - serverless-offline
+
+custom:
+  esbuild:
+    bundle: true
+    minify: false
+    packager: "yarn"
+    platform: "neutral"
+    watch:
+      pattern: ["src/**/*.ts"]
+  serverless-offline:
+    useInProcess: true
 
 functions:
   function1:
-    handler: index.handler
+    handler: src/index.handler
     events:
       - http:
           path: /test

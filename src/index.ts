@@ -1,4 +1,4 @@
-module.exports.handler = async (event: AWSLambda.APIGatewayProxyEvent) => {
+export const handler = async (event: AWSLambda.APIGatewayProxyEvent) => {
   return {
     statusCode: 200,
     headers: {

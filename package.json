@@ -16,10 +16,12 @@
     "@types/aws-lambda": "^8.10.131",
     "@types/eslint": "^8",
     "@types/node": "^20.11.5",
+    "esbuild": "^0.19.11",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.4",
     "serverless": "^3.38.0",
+    "serverless-esbuild": "^1.50.1",
     "serverless-offline": "^13.3.3",
     "typescript": "^5.3.3"
   },
