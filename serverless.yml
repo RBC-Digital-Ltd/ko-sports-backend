@@ -20,7 +20,7 @@ custom:
     sourcemap: true
     bundle: true
     minify: false
-    plugins: esbuildPlugin.mjs
+    plugins: esbuildPlugin.cjs
     packager: "yarn"
     loader:
       .node: "copy"

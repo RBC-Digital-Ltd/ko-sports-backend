@@ -1,5 +1,5 @@
-import { env } from "node:process";
-import { sentryEsbuildPlugin } from "@sentry/esbuild-plugin";
+const { env } = require("node:process");
+const { sentryEsbuildPlugin } = require("@sentry/esbuild-plugin");
 
 const plugins = [
   sentryEsbuildPlugin({
