@@ -42,4 +42,5 @@ jobs:
 
       - run: yarn deploy
         env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}

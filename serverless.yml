@@ -1,11 +1,14 @@
 service: ko-sports-backend
 frameworkVersion: "3"
 
+useDotenv: true
+
 provider:
   name: aws
   runtime: nodejs20.x
   region: eu-west-1
   environment:
+    DATABASE_URL: ${env:DATABASE_URL}
     API_VERSION: ${env:API_VERSION, '0.0.0-local'}
 
 plugins:
