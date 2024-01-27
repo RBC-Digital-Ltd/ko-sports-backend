@@ -28,7 +28,7 @@
     "eslint-plugin-unicorn": "^50.0.1",
     "prettier": "^3.2.4",
     "serverless": "^3.38.0",
-    "serverless-esbuild": "^1.50.1",
+    "serverless-esbuild": "^1.50.2",
     "serverless-offline": "^13.3.3",
     "typescript": "^5.3.3"
   },

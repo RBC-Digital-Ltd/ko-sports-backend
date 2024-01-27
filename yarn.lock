@@ -6027,7 +6027,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:^50.0.1"
     prettier: "npm:^3.2.4"
     serverless: "npm:^3.38.0"
-    serverless-esbuild: "npm:^1.50.1"
+    serverless-esbuild: "npm:^1.50.2"
     serverless-offline: "npm:^13.3.3"
     typescript: "npm:^5.3.3"
   languageName: unknown
@@ -7687,9 +7687,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:^1.50.1":
-  version: 1.50.1
-  resolution: "serverless-esbuild@npm:1.50.1"
+"serverless-esbuild@npm:^1.50.2":
+  version: 1.50.2
+  resolution: "serverless-esbuild@npm:1.50.2"
   dependencies:
     acorn: "npm:^8.8.1"
     acorn-walk: "npm:^8.2.0"
@@ -7710,7 +7710,7 @@ __metadata:
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: e09721df74ce844fec3105ed7c0ded7f7081fb698a732c253c318f0aaa826cc86dde454296fb79d44981bc4f35b6da0f6dbd00a0bd64f5975b4e17acc33a0670
+  checksum: fe691c703f67de75307416edeac7f63cfbcb31a823a9cd9a5874f7669d6e673088c9c598c627fee14c4c790cb420a387f3d98bbed0abb2281d1756444a911b82
   languageName: node
   linkType: hard
 
