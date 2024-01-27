@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "serverless offline",
     "deploy": "serverless deploy",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "migrate": "prisma db push"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -37,6 +38,7 @@
     "@sentry/esbuild-plugin": "^2.10.2",
     "@sentry/node": "^7.94.1",
     "@sentry/profiling-node": "^1.3.5",
-    "@sentry/serverless": "^7.94.1"
+    "@sentry/serverless": "^7.94.1",
+    "prisma": "^5.8.1"
   }
 }
