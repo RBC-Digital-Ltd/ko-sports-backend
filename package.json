@@ -14,7 +14,7 @@
     "node": ">=20.0.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.132",
+    "@types/aws-lambda": "^8.10.133",
     "@types/eslint": "^8",
     "@types/jsonwebtoken": "^9",
     "@types/node": "^20.11.10",
