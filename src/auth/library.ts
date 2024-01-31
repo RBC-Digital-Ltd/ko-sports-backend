@@ -1,3 +1,4 @@
+import { env } from "node:process";
 import util from "node:util";
 import jwksClient, { CertSigningKey, RsaSigningKey } from "jwks-rsa";
 import jwt, { JwtPayload } from "jsonwebtoken";
@@ -37,8 +38,8 @@ const getToken = (paramaters: AWSLambda.APIGatewayAuthorizerEvent) => {
 };
 
 const jwtOptions = {
-  audience: process.env.AUDIENCE,
-  issuer: process.env.TOKEN_ISSUER,
+  audience: env.AUDIENCE,
+  issuer: env.TOKEN_ISSUER,
 };
 
 export const authenticate = (
@@ -62,7 +63,9 @@ export const authenticate = (
     .then((decoded) => ({
       principalId: decoded.sub,
       policyDocument: getPolicyDocument("Allow", paramaters.methodArn),
-      context: { scope: (decoded as JwtPayload).scope },
+      context: (decoded as JwtPayload).scope
+        ? { scope: (decoded as JwtPayload).scope }
+        : undefined,
     }));
 };
 
@@ -70,5 +73,5 @@ const client = jwksClient({
   cache: true,
   rateLimit: true,
   jwksRequestsPerMinute: 10, // Default value
-  jwksUri: process.env.JWKS_URI || "",
+  jwksUri: env.JWKS_URI || "",
 });

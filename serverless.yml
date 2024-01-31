@@ -33,9 +33,16 @@ custom:
     useInProcess: true
 
 functions:
+  authorizer:
+    handler: src/auth/index.handler
+    environment:
+      JWKS_URI: ${env:JWKS_URI}
+      AUDIENCE: ${env:AUDIENCE}
+      TOKEN_ISSUER: ${env:TOKEN_ISSUER}
   function1:
     handler: src/index.handler
     events:
       - http:
           path: /test
           method: get
+          authorizer: authorizer
