@@ -44,3 +44,6 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          TOKEN_ISSUER: ${{ secrets.TOKEN_ISSUER }}
+          AUDIENCE: ${{ secrets.AUDIENCE }}
+          JWKS_URI: ${{ secrets.JWKS_URI }}
