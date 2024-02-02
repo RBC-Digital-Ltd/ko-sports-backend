@@ -6244,7 +6244,7 @@ __metadata:
     prettier: "npm:^3.2.4"
     prisma: "npm:^5.9.1"
     serverless: "npm:^3.38.0"
-    serverless-esbuild: "npm:^1.50.2"
+    serverless-esbuild: "npm:^1.51.0"
     serverless-offline: "npm:^13.3.3"
     typescript: "npm:^5.3.3"
   languageName: unknown
@@ -8051,9 +8051,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-esbuild@npm:^1.50.2":
-  version: 1.50.2
-  resolution: "serverless-esbuild@npm:1.50.2"
+"serverless-esbuild@npm:^1.51.0":
+  version: 1.51.0
+  resolution: "serverless-esbuild@npm:1.51.0"
   dependencies:
     acorn: "npm:^8.8.1"
     acorn-walk: "npm:^8.2.0"
@@ -8069,12 +8069,12 @@ __metadata:
     ramda: "npm:^0.28.0"
     semver: "npm:^7.3.8"
   peerDependencies:
-    esbuild: ">=0.8 <0.20"
+    esbuild: ">=0.8 <0.21"
     esbuild-node-externals: ^1.0.0
   peerDependenciesMeta:
     esbuild-node-externals:
       optional: true
-  checksum: fe691c703f67de75307416edeac7f63cfbcb31a823a9cd9a5874f7669d6e673088c9c598c627fee14c4c790cb420a387f3d98bbed0abb2281d1756444a911b82
+  checksum: 6e3aea85b3845fecd2e0a5f8cd9f467396fe418cda478b732a8e688428c12740698a12a22d083ffdd005857a98bcb9b3fb8df7d5235109e431d44f579144df4a
   languageName: node
   linkType: hard
 
