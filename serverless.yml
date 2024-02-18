@@ -39,6 +39,12 @@ functions:
       JWKS_URI: ${env:JWKS_URI}
       AUDIENCE: ${env:AUDIENCE}
       TOKEN_ISSUER: ${env:TOKEN_ISSUER}
+  healthCheck:
+    handler: src/healthCheck/index.handler
+    events:
+      - http:
+          path: /health
+          method: get
   function1:
     handler: src/index.handler
     events:
