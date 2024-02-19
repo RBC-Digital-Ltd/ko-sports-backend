@@ -8,7 +8,7 @@
     "dev": "IS_OFFLINE=true serverless offline",
     "deploy": "serverless deploy",
     "lint": "eslint .",
-    "migrate": "prisma db push"
+    "migrate": "prisma db push --skip-generate"
   },
   "engines": {
     "node": ">=20.0.0"
