@@ -36,7 +36,7 @@
   },
   "packageManager": "yarn@4.1.0",
   "dependencies": {
-    "@sentry/esbuild-plugin": "^2.14.2",
+    "@sentry/esbuild-plugin": "^2.14.3",
     "@sentry/node": "^7.105.0",
     "@sentry/profiling-node": "^7.105.0",
     "@sentry/serverless": "^7.105.0",
