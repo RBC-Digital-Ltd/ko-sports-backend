@@ -32,7 +32,7 @@
     "serverless": "^3.38.0",
     "serverless-esbuild": "^1.51.0",
     "serverless-offline": "^13.3.3",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "packageManager": "yarn@4.1.0",
   "dependencies": {
