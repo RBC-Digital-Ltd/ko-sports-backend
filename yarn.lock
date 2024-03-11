@@ -1607,6 +1607,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry-internal/tracing@npm:7.106.1":
+  version: 7.106.1
+  resolution: "@sentry-internal/tracing@npm:7.106.1"
+  dependencies:
+    "@sentry/core": "npm:7.106.1"
+    "@sentry/types": "npm:7.106.1"
+    "@sentry/utils": "npm:7.106.1"
+  checksum: 10c0/53e873b2f2c786553171e0acfbd3b5da53e1ef53c46a423fa64a6464dfa05629ccbe844d9e20722945e105d26632dfc29abcd1ae52019f9ba3eaf73099881e03
+  languageName: node
+  linkType: hard
+
 "@sentry/babel-plugin-component-annotate@npm:2.14.3":
   version: 2.14.3
   resolution: "@sentry/babel-plugin-component-annotate@npm:2.14.3"
@@ -1726,6 +1737,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/core@npm:7.106.1":
+  version: 7.106.1
+  resolution: "@sentry/core@npm:7.106.1"
+  dependencies:
+    "@sentry/types": "npm:7.106.1"
+    "@sentry/utils": "npm:7.106.1"
+  checksum: 10c0/fde54bba7dde0a9601cf0a155aabb240dbe2f6ab34094633b7e6b90c21fb1d11a1175c9e2d6d9a907a28b66fadb4dffd82b3a97832e69d8f5f2d8f853291deaf
+  languageName: node
+  linkType: hard
+
 "@sentry/esbuild-plugin@npm:^2.14.3":
   version: 2.14.3
   resolution: "@sentry/esbuild-plugin@npm:2.14.3"
@@ -1737,7 +1758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/node@npm:7.105.0, @sentry/node@npm:^7.105.0":
+"@sentry/node@npm:7.105.0":
   version: 7.105.0
   resolution: "@sentry/node@npm:7.105.0"
   dependencies:
@@ -1746,6 +1767,18 @@ __metadata:
     "@sentry/types": "npm:7.105.0"
     "@sentry/utils": "npm:7.105.0"
   checksum: 10c0/66bade39fc1c08bb50900fce7ad7a281e6c67e1a5c27c8f209aa253f28e51a66ca82c4e331855f68570a6f9873fb24a08416139b52c49c76bef3c2648c9573f4
+  languageName: node
+  linkType: hard
+
+"@sentry/node@npm:^7.106.1":
+  version: 7.106.1
+  resolution: "@sentry/node@npm:7.106.1"
+  dependencies:
+    "@sentry-internal/tracing": "npm:7.106.1"
+    "@sentry/core": "npm:7.106.1"
+    "@sentry/types": "npm:7.106.1"
+    "@sentry/utils": "npm:7.106.1"
+  checksum: 10c0/a2d3abecc8d253a922ff82ca3548465f5fcaab9a87533d0196376e2703dd6588f89223a72bb3265cca0f28af171173c3896b589b1e53da7be4ca1cf673c42c1f
   languageName: node
   linkType: hard
 
@@ -1783,12 +1816,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sentry/types@npm:7.106.1":
+  version: 7.106.1
+  resolution: "@sentry/types@npm:7.106.1"
+  checksum: 10c0/00aefe4165bd0021876c966cd79ab75a522f14e8d462c6964546471b0a08bc337f7579fd4b2b7357076d05bd30e54febb8f0e57ab20a389c071e7c3df91e77bd
+  languageName: node
+  linkType: hard
+
 "@sentry/utils@npm:7.105.0":
   version: 7.105.0
   resolution: "@sentry/utils@npm:7.105.0"
   dependencies:
     "@sentry/types": "npm:7.105.0"
   checksum: 10c0/2db884429559a04858de81d68d52f36eb1b96f8c318fdc87b99c502d804c2ff038966ebca3127dfe1c07dd9cb326efcb3c7604963a29345bbd6f26d09a083d34
+  languageName: node
+  linkType: hard
+
+"@sentry/utils@npm:7.106.1":
+  version: 7.106.1
+  resolution: "@sentry/utils@npm:7.106.1"
+  dependencies:
+    "@sentry/types": "npm:7.106.1"
+  checksum: 10c0/e2697c6fea04a6c7e0cbb75c6df56411a73c70ebe9c6fa31e771fb646a105dbbd74b80007bbc98030215e5505adca1ad87b5e95f7704ef66855277cc01ccbd1a
   languageName: node
   linkType: hard
 
@@ -6539,7 +6588,7 @@ __metadata:
   resolution: "ko-sports-backend@workspace:."
   dependencies:
     "@sentry/esbuild-plugin": "npm:^2.14.3"
-    "@sentry/node": "npm:^7.105.0"
+    "@sentry/node": "npm:^7.106.1"
     "@sentry/profiling-node": "npm:^7.106.0"
     "@sentry/serverless": "npm:^7.105.0"
     "@types/aws-lambda": "npm:^8.10.136"
