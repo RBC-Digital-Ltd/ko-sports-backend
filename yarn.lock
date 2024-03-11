@@ -1596,17 +1596,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry-internal/tracing@npm:7.105.0":
-  version: 7.105.0
-  resolution: "@sentry-internal/tracing@npm:7.105.0"
-  dependencies:
-    "@sentry/core": "npm:7.105.0"
-    "@sentry/types": "npm:7.105.0"
-    "@sentry/utils": "npm:7.105.0"
-  checksum: 10c0/585d88130279db364af3753506b8069d95e8cba22ca6e8a5b8946b5f78bb782f6ba80a80e08a9bb1de6781abafc490eaf3e0563954082e4c354c85e0213e4ac5
-  languageName: node
-  linkType: hard
-
 "@sentry-internal/tracing@npm:7.106.1":
   version: 7.106.1
   resolution: "@sentry-internal/tracing@npm:7.106.1"
@@ -1727,16 +1716,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/core@npm:7.105.0":
-  version: 7.105.0
-  resolution: "@sentry/core@npm:7.105.0"
-  dependencies:
-    "@sentry/types": "npm:7.105.0"
-    "@sentry/utils": "npm:7.105.0"
-  checksum: 10c0/1e95b819479414457dfb5f8d9f03c024e6471c229a54731860655a17cf1256590748034584136795e36005443b9fdabb1591e9acfc81f6656b91f3fe2e76b173
-  languageName: node
-  linkType: hard
-
 "@sentry/core@npm:7.106.1":
   version: 7.106.1
   resolution: "@sentry/core@npm:7.106.1"
@@ -1758,19 +1737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/node@npm:7.105.0":
-  version: 7.105.0
-  resolution: "@sentry/node@npm:7.105.0"
-  dependencies:
-    "@sentry-internal/tracing": "npm:7.105.0"
-    "@sentry/core": "npm:7.105.0"
-    "@sentry/types": "npm:7.105.0"
-    "@sentry/utils": "npm:7.105.0"
-  checksum: 10c0/66bade39fc1c08bb50900fce7ad7a281e6c67e1a5c27c8f209aa253f28e51a66ca82c4e331855f68570a6f9873fb24a08416139b52c49c76bef3c2648c9573f4
-  languageName: node
-  linkType: hard
-
-"@sentry/node@npm:^7.106.1":
+"@sentry/node@npm:7.106.1, @sentry/node@npm:^7.106.1":
   version: 7.106.1
   resolution: "@sentry/node@npm:7.106.1"
   dependencies:
@@ -1795,24 +1762,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/serverless@npm:^7.105.0":
-  version: 7.105.0
-  resolution: "@sentry/serverless@npm:7.105.0"
+"@sentry/serverless@npm:^7.106.1":
+  version: 7.106.1
+  resolution: "@sentry/serverless@npm:7.106.1"
   dependencies:
-    "@sentry/core": "npm:7.105.0"
-    "@sentry/node": "npm:7.105.0"
-    "@sentry/types": "npm:7.105.0"
-    "@sentry/utils": "npm:7.105.0"
+    "@sentry/core": "npm:7.106.1"
+    "@sentry/node": "npm:7.106.1"
+    "@sentry/types": "npm:7.106.1"
+    "@sentry/utils": "npm:7.106.1"
     "@types/aws-lambda": "npm:^8.10.62"
     "@types/express": "npm:^4.17.14"
-  checksum: 10c0/440ad913a5ab9af3d7e3cbc1365f85636f16223d64823c7f0d80fb710bf4fec488e6da01a20ab3059f75b6c007a08e1242a749f853124c0accc7e178afbd7df6
-  languageName: node
-  linkType: hard
-
-"@sentry/types@npm:7.105.0":
-  version: 7.105.0
-  resolution: "@sentry/types@npm:7.105.0"
-  checksum: 10c0/672038538cd08f5eaf851cf0d959dcdede00f84ae567d31f18ae7f345f315cb54a92ce22c594ae403cf193fc011abbddd26cbb60298f1df4dce8fb73bf725e55
+  checksum: 10c0/d42559b827b36b350aab62c9ed781c573c594d342af77e5ab3a4429ff4f98c35c95d59bc2ac776e9109503f4ef3f1fbf09ce6d15eb1f73df8667da2b1f3a8bd3
   languageName: node
   linkType: hard
 
@@ -1820,15 +1780,6 @@ __metadata:
   version: 7.106.1
   resolution: "@sentry/types@npm:7.106.1"
   checksum: 10c0/00aefe4165bd0021876c966cd79ab75a522f14e8d462c6964546471b0a08bc337f7579fd4b2b7357076d05bd30e54febb8f0e57ab20a389c071e7c3df91e77bd
-  languageName: node
-  linkType: hard
-
-"@sentry/utils@npm:7.105.0":
-  version: 7.105.0
-  resolution: "@sentry/utils@npm:7.105.0"
-  dependencies:
-    "@sentry/types": "npm:7.105.0"
-  checksum: 10c0/2db884429559a04858de81d68d52f36eb1b96f8c318fdc87b99c502d804c2ff038966ebca3127dfe1c07dd9cb326efcb3c7604963a29345bbd6f26d09a083d34
   languageName: node
   linkType: hard
 
@@ -6636,7 +6587,7 @@ __metadata:
     "@sentry/esbuild-plugin": "npm:^2.14.3"
     "@sentry/node": "npm:^7.106.1"
     "@sentry/profiling-node": "npm:^7.106.0"
-    "@sentry/serverless": "npm:^7.105.0"
+    "@sentry/serverless": "npm:^7.106.1"
     "@types/aws-lambda": "npm:^8.10.136"
     "@types/eslint": "npm:^8.56.5"
     "@types/jsonwebtoken": "npm:^9.0.6"
