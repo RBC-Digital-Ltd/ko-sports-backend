@@ -37,7 +37,7 @@
   "packageManager": "yarn@4.1.0",
   "dependencies": {
     "@sentry/esbuild-plugin": "^2.15.0",
-    "@sentry/node": "^7.106.1",
+    "@sentry/node": "^7.107.0",
     "@sentry/profiling-node": "^7.107.0",
     "@sentry/serverless": "^7.107.0",
     "jsonwebtoken": "^9.0.2",
