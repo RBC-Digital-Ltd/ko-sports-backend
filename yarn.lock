@@ -1607,26 +1607,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/babel-plugin-component-annotate@npm:2.15.0":
-  version: 2.15.0
-  resolution: "@sentry/babel-plugin-component-annotate@npm:2.15.0"
-  checksum: 10c0/21ed7e20d9ae32abbf975402f14e589cd9c880cbdfad4e4ce56c8dbfb050aa941364115b6626814603f9a1bb9a5fbe13acd92d136c11081fb0f04c5b4f53ae7f
+"@sentry/babel-plugin-component-annotate@npm:2.16.0":
+  version: 2.16.0
+  resolution: "@sentry/babel-plugin-component-annotate@npm:2.16.0"
+  checksum: 10c0/90e20fb70125e886cf21797784c00782179aa1e5611ab939e9175dd56536270debf86bdc93ca2f6ed396e90f268d01c46a0bdbf2a24dd09ba5f32f86618ae3bc
   languageName: node
   linkType: hard
 
-"@sentry/bundler-plugin-core@npm:2.15.0":
-  version: 2.15.0
-  resolution: "@sentry/bundler-plugin-core@npm:2.15.0"
+"@sentry/bundler-plugin-core@npm:2.16.0":
+  version: 2.16.0
+  resolution: "@sentry/bundler-plugin-core@npm:2.16.0"
   dependencies:
     "@babel/core": "npm:^7.18.5"
-    "@sentry/babel-plugin-component-annotate": "npm:2.15.0"
+    "@sentry/babel-plugin-component-annotate": "npm:2.16.0"
     "@sentry/cli": "npm:^2.22.3"
     dotenv: "npm:^16.3.1"
     find-up: "npm:^5.0.0"
     glob: "npm:^9.3.2"
     magic-string: "npm:0.27.0"
     unplugin: "npm:1.0.1"
-  checksum: 10c0/79b8efe35423e1b92d564d0a7c9e65e569f675ac8ed7f63f928708e0bde3af21b9364ed810b9ac82e2aa1fa34acaf5960cc7cfe2d14443a187131e5135e80220
+  checksum: 10c0/dae16b721bec3a3829a650656ae588501f9cc8248256103894ff743606b69a12a70724926c08ffe72445107af97a22440b85c5384073346f8da45c80dda4932d
   languageName: node
   linkType: hard
 
@@ -1726,14 +1726,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/esbuild-plugin@npm:^2.15.0":
-  version: 2.15.0
-  resolution: "@sentry/esbuild-plugin@npm:2.15.0"
+"@sentry/esbuild-plugin@npm:^2.16.0":
+  version: 2.16.0
+  resolution: "@sentry/esbuild-plugin@npm:2.16.0"
   dependencies:
-    "@sentry/bundler-plugin-core": "npm:2.15.0"
+    "@sentry/bundler-plugin-core": "npm:2.16.0"
     unplugin: "npm:1.0.1"
     uuid: "npm:^9.0.0"
-  checksum: 10c0/e847fef5f542289044d5cae26011a1daff6fe81c4c459eff420bd1d176b012b78d98ee7bb1dacd225e235a20d89865028fa5e980ec79a7a9dd22426f98ed4ff9
+  checksum: 10c0/bfd627b61e2bb86eb685de3dbbd7d1ffc8536fdde8a78aed597a41ca7945c9c0c55a99cd2c077a2a1aa513e88bc04313fb6818f7f1e499ced07cc4dbb4d52458
   languageName: node
   linkType: hard
 
@@ -6538,7 +6538,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ko-sports-backend@workspace:."
   dependencies:
-    "@sentry/esbuild-plugin": "npm:^2.15.0"
+    "@sentry/esbuild-plugin": "npm:^2.16.0"
     "@sentry/node": "npm:^7.107.0"
     "@sentry/profiling-node": "npm:^7.107.0"
     "@sentry/serverless": "npm:^7.107.0"
