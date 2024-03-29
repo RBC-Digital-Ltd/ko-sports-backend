@@ -1749,16 +1749,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/profiling-node@npm:^7.108.0":
-  version: 7.108.0
-  resolution: "@sentry/profiling-node@npm:7.108.0"
+"@sentry/profiling-node@npm:^7.109.0":
+  version: 7.109.0
+  resolution: "@sentry/profiling-node@npm:7.109.0"
   dependencies:
     detect-libc: "npm:^2.0.2"
     node-abi: "npm:^3.52.0"
     node-gyp: "npm:latest"
   bin:
     sentry-prune-profiler-binaries: scripts/prune-profiler-binaries.js
-  checksum: 10c0/7e63a131bc9a75e4b8b3a257ab426c7134f45aa52d1144a1e1d82bc64975f13ca8e970c318a4e63a6c37cec0ac0bb3b2ce3ca3d0622d764faa086efd8e0c8249
+  checksum: 10c0/fe9dccd39b884759a007a33ecc26b8d349e161331a449b64ee9bb40acd818346d653da7ad55c6eb939b34e88ae0c05db9c09f7f1be8963eafaae01eea98e260a
   languageName: node
   linkType: hard
 
@@ -6540,7 +6540,7 @@ __metadata:
   dependencies:
     "@sentry/esbuild-plugin": "npm:^2.16.0"
     "@sentry/node": "npm:^7.108.0"
-    "@sentry/profiling-node": "npm:^7.108.0"
+    "@sentry/profiling-node": "npm:^7.109.0"
     "@sentry/serverless": "npm:^7.108.0"
     "@types/aws-lambda": "npm:^8.10.136"
     "@types/eslint": "npm:^8.56.6"
