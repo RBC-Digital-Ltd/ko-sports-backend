@@ -39,7 +39,7 @@
     "@sentry/esbuild-plugin": "^2.16.1",
     "@sentry/node": "^7.110.0",
     "@sentry/profiling-node": "^7.110.1",
-    "@sentry/serverless": "^7.109.0",
+    "@sentry/serverless": "^7.110.1",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.1.0",
     "mysql2": "^3.9.4",
