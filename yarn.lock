@@ -3516,13 +3516,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/retry@npm:0.12.2":
-  version: 0.12.2
-  resolution: "@types/retry@npm:0.12.2"
-  checksum: 10c0/07481551a988cc90b423351919928b9ddcd14e3f5591cac3ab950851bb20646e55a10e89141b38bc3093d2056d4df73700b22ff2612976ac86a6367862381884
-  languageName: node
-  linkType: hard
-
 "@types/semver@npm:^7.5.8":
   version: 7.5.8
   resolution: "@types/semver@npm:7.5.8"
@@ -6893,13 +6886,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-network-error@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "is-network-error@npm:1.0.1"
-  checksum: 10c0/81d3d9c5f8588d114982e574e323028206e56e89b1bb5efd76f7e495a377ddfcd4f1e68579a7e65c15c911ccfe7be0025580198e20c77b18a36775580771b7f9
-  languageName: node
-  linkType: hard
-
 "is-number-object@npm:^1.0.4":
   version: 1.0.7
   resolution: "is-number-object@npm:1.0.7"
@@ -7450,7 +7436,7 @@ __metadata:
     prisma: "npm:^5.13.0"
     serverless: "npm:^3.38.0"
     serverless-esbuild: "npm:^1.52.1"
-    serverless-offline: "npm:^13.3.4"
+    serverless-offline: "npm:^13.4.0"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
@@ -8571,17 +8557,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-retry@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "p-retry@npm:6.2.0"
-  dependencies:
-    "@types/retry": "npm:0.12.2"
-    is-network-error: "npm:^1.0.0"
-    retry: "npm:^0.13.1"
-  checksum: 10c0/3277f2a8450fb1429c29c432d24c5965b32f187228f1beea56f5d49209717588a7dc0415def1c653f60e0d15ed72c56dacaa2d5fdfa71b0f860592b0aa6ce823
-  languageName: node
-  linkType: hard
-
 "p-timeout@npm:^3.1.0":
   version: 3.2.0
   resolution: "p-timeout@npm:3.2.0"
@@ -9127,13 +9102,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"retry@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "retry@npm:0.13.1"
-  checksum: 10c0/9ae822ee19db2163497e074ea919780b1efa00431d197c7afdb950e42bf109196774b92a49fc9821f0b8b328a98eea6017410bfc5e8a0fc19c85c6d11adb3772
-  languageName: node
-  linkType: hard
-
 "reusify@npm:^1.0.4":
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
@@ -9330,9 +9298,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-offline@npm:^13.3.4":
-  version: 13.3.4
-  resolution: "serverless-offline@npm:13.3.4"
+"serverless-offline@npm:^13.4.0":
+  version: 13.4.0
+  resolution: "serverless-offline@npm:13.4.0"
   dependencies:
     "@aws-sdk/client-lambda": "npm:^3.509.0"
     "@hapi/boom": "npm:^10.0.1"
@@ -9355,12 +9323,11 @@ __metadata:
     luxon: "npm:^3.4.4"
     node-schedule: "npm:^2.1.1"
     p-memoize: "npm:^7.1.1"
-    p-retry: "npm:^6.2.0"
     velocityjs: "npm:^2.0.6"
     ws: "npm:^8.16.0"
   peerDependencies:
     serverless: ^3.2.0
-  checksum: 10c0/c22a4ce39f80aa637c9f6562b5aecfd9f3378af731a038141a699bfb6a6fc3cdf4c9c43c159c96e11e44b835147078c66dde84cb586d42fdf32bb9184b741951
+  checksum: 10c0/e5d2d60358869516c50b032d3e2ce2d57a493e7619e80ccfd3b5bfe21104eeaecf24c89d9645e51178adf84d864fb67ffa7c534765f8e96cf705667ac5247bf1
   languageName: node
   linkType: hard
 
