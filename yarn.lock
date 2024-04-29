@@ -7482,7 +7482,7 @@ __metadata:
     prisma: "npm:^5.13.0"
     serverless: "npm:^3.38.0"
     serverless-esbuild: "npm:^1.52.1"
-    serverless-offline: "npm:^13.4.0"
+    serverless-offline: "npm:^13.5.0"
     typescript: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
@@ -9344,9 +9344,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless-offline@npm:^13.4.0":
-  version: 13.4.0
-  resolution: "serverless-offline@npm:13.4.0"
+"serverless-offline@npm:^13.5.0":
+  version: 13.5.0
+  resolution: "serverless-offline@npm:13.5.0"
   dependencies:
     "@aws-sdk/client-lambda": "npm:^3.509.0"
     "@hapi/boom": "npm:^10.0.1"
@@ -9373,7 +9373,7 @@ __metadata:
     ws: "npm:^8.16.0"
   peerDependencies:
     serverless: ^3.2.0
-  checksum: 10c0/e5d2d60358869516c50b032d3e2ce2d57a493e7619e80ccfd3b5bfe21104eeaecf24c89d9645e51178adf84d864fb67ffa7c534765f8e96cf705667ac5247bf1
+  checksum: 10c0/2662deac1190ae7341580c0022ad0610d950ea150a777b1e6b86bb1be63d8095a2a015939b134609663be096127c918c3c19f3328d2a283656050085ee6c47b0
   languageName: node
   linkType: hard
 
