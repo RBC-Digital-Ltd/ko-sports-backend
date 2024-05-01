@@ -144,7 +144,7 @@ module.exports = {
 
     // We have this enabled in addition to `import/extensions` as this one has an auto-fix.
     "n/file-extension-in-import": [
-      "error",
+      "off",
       "always",
       {
         // TypeScript doesn't yet support using extensions and fails with error TS2691.

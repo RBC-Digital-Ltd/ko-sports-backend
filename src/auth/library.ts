@@ -1,5 +1,5 @@
 import { env } from "node:process";
-import util from "node:util";
+import { promisify } from "node:util";
 import jwksClient, { CertSigningKey, RsaSigningKey } from "jwks-rsa";
 import jwt, { JwtPayload } from "jsonwebtoken";
 
@@ -52,7 +52,7 @@ export const authenticate = (
     throw new Error("invalid token");
   }
 
-  const getSigningKey = util.promisify(client.getSigningKey);
+  const getSigningKey = promisify(client.getSigningKey);
   return getSigningKey(decoded.header.kid)
     .then((key) => {
       const signingKey =
