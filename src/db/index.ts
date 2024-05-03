@@ -1,9 +1,9 @@
 import { env } from "node:process";
-import mysql from "mysql2/promise";
+import postgres from "postgres";
 
-const pool = mysql.createPool(env.DATABASE_URL || "");
+const pool = postgres(env.DATABASE_URL || "", {});
 
 export const makeQuery = async (query: string) => {
-  const result = await pool.query(query);
+  const result = await pool`${query}`;
   return result;
 };

@@ -12,5 +12,8 @@ AWSLambda.init({
 });
 
 export const wrapHandler = (handler: Handler) => {
+  if (process.env.IS_OFFLINE) {
+    return handler;
+  }
   return AWSLambda.wrapHandler(handler);
 };

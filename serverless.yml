@@ -31,6 +31,7 @@ custom:
       pattern: ["src/**/*.ts"]
   serverless-offline:
     useInProcess: true
+    httpPort: 4000
 
 functions:
   authorizer:
@@ -50,5 +51,12 @@ functions:
     events:
       - http:
           path: /test
+          method: get
+          authorizer: authorizer
+  checkProfile:
+    handler: src/routes/auth/checkProfile/index.handler
+    events:
+      - http:
+          path: /auth/check-profile
           method: get
           authorizer: authorizer

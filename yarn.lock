@@ -7408,6 +7408,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:^52.0.0"
     jsonwebtoken: "npm:^9.0.2"
     jwks-rsa: "npm:^3.1.0"
+    postgres: "npm:^3.4.4"
     prettier: "npm:^3.2.5"
     prisma: "npm:^5.13.0"
     serverless: "npm:^3.38.0"
@@ -8669,6 +8670,13 @@ __metadata:
   version: 8.0.0
   resolution: "pluralize@npm:8.0.0"
   checksum: 10c0/2044cfc34b2e8c88b73379ea4a36fc577db04f651c2909041b054c981cd863dd5373ebd030123ab058d194ae615d3a97cfdac653991e499d10caf592e8b3dc33
+  languageName: node
+  linkType: hard
+
+"postgres@npm:^3.4.4":
+  version: 3.4.4
+  resolution: "postgres@npm:3.4.4"
+  checksum: 10c0/5c01a1501a1cb8851d981b1949bffd0a0a82ac5fd8453c410fdf4d6c0f91d01e69a42b30da2d08a77a00d6ddac0ea6ce58a1aa0dd6bd3f76e9220b1176bdfe60
   languageName: node
   linkType: hard
 

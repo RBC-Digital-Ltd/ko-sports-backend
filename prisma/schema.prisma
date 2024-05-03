@@ -1,19 +1,26 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-generator client {
-  provider = "prisma-client-js"
-}
-
 datasource db {
+<<<<<<< Updated upstream
   provider = "postgres"
+=======
+  provider = "postgresql"
+>>>>>>> Stashed changes
   url      = env("DATABASE_URL")
 }
 
 model User {
+<<<<<<< Updated upstream
   id              Int     @id @default(autoincrement())
   email           String  @unique
   name            String?
   auth0Id         String
   profileComplete Boolean @default(false)
+=======
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+  auth0Id String? @unique
+>>>>>>> Stashed changes
 }
