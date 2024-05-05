@@ -60,3 +60,10 @@ functions:
           path: /auth/check-profile
           method: get
           authorizer: authorizer
+  createProfile:
+    handler: src/routes/auth/createProfile/index.handler
+    events:
+      - http:
+          path: /auth/create-profile
+          method: post
+          authorizer: authorizer

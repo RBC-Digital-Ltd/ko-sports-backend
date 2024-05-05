@@ -5,7 +5,7 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "dev": "IS_OFFLINE=true serverless offline",
+    "dev": "IS_OFFLINE=true serverless offline --reloadHandler",
     "deploy": "serverless deploy",
     "lint": "eslint .",
     "migrate": "prisma db push --skip-generate"
@@ -34,7 +34,7 @@
     "serverless-offline": "^13.5.0",
     "typescript": "^5.4.5"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.1",
   "dependencies": {
     "@sentry/esbuild-plugin": "^2.16.1",
     "@sentry/node": "^7.113.0",

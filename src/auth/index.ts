@@ -6,8 +6,6 @@ export const handler = wrapHandler(
     try {
       const data = await authenticate(event);
 
-      console.log(data);
-
       return data;
     } catch (error) {
       console.error(error);
