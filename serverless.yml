@@ -67,3 +67,10 @@ functions:
           path: /auth/create-profile
           method: post
           authorizer: authorizer
+  updateProfile:
+    handler: src/routes/auth/updateProfile/index.handler
+    events:
+      - http:
+          path: /auth/update-profile
+          method: put
+          authorizer: authorizer
