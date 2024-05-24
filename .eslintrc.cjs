@@ -243,5 +243,14 @@ module.exports = {
         node: true,
       },
     },
+
+    // Tests
+    {
+      files: ["./**/*.test.{ts,tsx}"],
+
+      rules: {
+        "unicorn/no-null": "off",
+      },
+    },
   ],
 };
