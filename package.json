@@ -34,7 +34,7 @@
     "serverless-offline": "^13.6.0",
     "typescript": "^5.4.5"
   },
-  "packageManager": "yarn@4.2.1",
+  "packageManager": "yarn@4.2.2",
   "dependencies": {
     "@sentry/esbuild-plugin": "^2.17.0",
     "@sentry/node": "^7.114.0",
