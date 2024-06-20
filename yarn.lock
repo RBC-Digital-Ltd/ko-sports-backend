@@ -1738,26 +1738,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/babel-plugin-component-annotate@npm:2.17.0":
-  version: 2.17.0
-  resolution: "@sentry/babel-plugin-component-annotate@npm:2.17.0"
-  checksum: 10c0/e02b7314669fcc7e400e7cb4bb2766803b1aeea5d404441a2c5bd93d9e945c5288ccdc3bffe41ec369aa07b42cc26cc48104354fca6294c6f80525f24dfcacc9
+"@sentry/babel-plugin-component-annotate@npm:2.19.0":
+  version: 2.19.0
+  resolution: "@sentry/babel-plugin-component-annotate@npm:2.19.0"
+  checksum: 10c0/2f93d64095124b617dd1e5ffe8b91f17d4f8f5d890005f5a84e7de3ba891702671dc00d296dd7906d80bd9baa558ea08fe93db2c17a3ed28eba2294815194017
   languageName: node
   linkType: hard
 
-"@sentry/bundler-plugin-core@npm:2.17.0":
-  version: 2.17.0
-  resolution: "@sentry/bundler-plugin-core@npm:2.17.0"
+"@sentry/bundler-plugin-core@npm:2.19.0":
+  version: 2.19.0
+  resolution: "@sentry/bundler-plugin-core@npm:2.19.0"
   dependencies:
     "@babel/core": "npm:^7.18.5"
-    "@sentry/babel-plugin-component-annotate": "npm:2.17.0"
+    "@sentry/babel-plugin-component-annotate": "npm:2.19.0"
     "@sentry/cli": "npm:^2.22.3"
     dotenv: "npm:^16.3.1"
     find-up: "npm:^5.0.0"
     glob: "npm:^9.3.2"
     magic-string: "npm:0.30.8"
     unplugin: "npm:1.0.1"
-  checksum: 10c0/28a21755abd0634eca9db11a08aeeb842d357b4fc52efbd66b48ca147958ff50cfdc71f886cfb4f0de33aedf1e058fdb15d5b33afd193906d4b4afbd15fadfcd
+  checksum: 10c0/7125867cb84088776f318307e2d781fa270f140035b549edb402518fca8cf84a51259516e212df56a7ebb22dd63e0bd42b58b58b0d1a66101759d42a707c0e72
   languageName: node
   linkType: hard
 
@@ -1867,14 +1867,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/esbuild-plugin@npm:^2.17.0":
-  version: 2.17.0
-  resolution: "@sentry/esbuild-plugin@npm:2.17.0"
+"@sentry/esbuild-plugin@npm:^2.19.0":
+  version: 2.19.0
+  resolution: "@sentry/esbuild-plugin@npm:2.19.0"
   dependencies:
-    "@sentry/bundler-plugin-core": "npm:2.17.0"
+    "@sentry/bundler-plugin-core": "npm:2.19.0"
     unplugin: "npm:1.0.1"
     uuid: "npm:^9.0.0"
-  checksum: 10c0/47c81dc8158348bcb340dcf6914926aa60faedc278820eda142922015d7778b174929d279d68a94b74b9e1c8aa22465613cb77932862e24250bf115633d129fd
+  checksum: 10c0/afa56c765c6f1f8412a744583c72008d72ff5e6df5714425db81fdbd462361b93914855d7d11dd7980b91340352b27ce787e217687f4839776ab770a1ff67a39
   languageName: node
   linkType: hard
 
@@ -7139,7 +7139,7 @@ __metadata:
   dependencies:
     "@japa/expect": "npm:^3.0.2"
     "@japa/runner": "npm:^3.1.4"
-    "@sentry/esbuild-plugin": "npm:^2.17.0"
+    "@sentry/esbuild-plugin": "npm:^2.19.0"
     "@sentry/node": "npm:^7.114.0"
     "@sentry/profiling-node": "npm:^7.114.0"
     "@sentry/serverless": "npm:^7.117.0"
