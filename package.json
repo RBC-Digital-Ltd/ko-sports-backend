@@ -39,7 +39,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
-  "packageManager": "yarn@4.2.2",
+  "packageManager": "yarn@4.3.0",
   "dependencies": {
     "@sentry/esbuild-plugin": "^2.19.0",
     "@sentry/node": "^7.114.0",
