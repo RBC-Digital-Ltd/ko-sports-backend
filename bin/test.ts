@@ -3,7 +3,7 @@ import { expect } from "@japa/expect";
 
 processCLIArgs(process.argv.splice(2));
 configure({
-  files: ["**/*.test.ts"],
+  files: ["src/**/*.test.ts"],
   plugins: [expect()],
 });
 
