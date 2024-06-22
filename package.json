@@ -4,7 +4,6 @@
   "repository": "git@github.com:RBC-Digital-Ltd/ko-sports-backend.git",
   "private": true,
   "sideEffects": false,
-  "type": "module",
   "scripts": {
     "dev": "IS_OFFLINE=true serverless offline --reloadHandler",
     "deploy": "serverless deploy",
@@ -33,17 +32,15 @@
     "eslint-plugin-no-use-extend-native": "^0.7.0",
     "eslint-plugin-unicorn": "^54.0.0",
     "prettier": "^3.3.2",
-    "serverless": "^3.38.0",
+    "serverless": "^3.39.0",
     "serverless-esbuild": "^1.52.1",
     "serverless-offline": "^13.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
-  "packageManager": "yarn@4.3.0",
   "dependencies": {
     "@sentry/esbuild-plugin": "^2.19.0",
     "@sentry/node": "^8.10.0",
-    "@sentry/profiling-node": "^8.11.0",
     "@sentry/serverless": "7.114.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.1.0",
