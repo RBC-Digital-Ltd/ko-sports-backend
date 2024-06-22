@@ -1,5 +1,5 @@
 import { type Handler } from "aws-lambda";
-import Sentry from "@sentry/aws-serverless";
+import * as Sentry from "@sentry/aws-serverless";
 import { nodeProfilingIntegration } from "@sentry/profiling-node";
 
 if (process.env.NODE_ENV !== "test") {

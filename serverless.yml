@@ -26,11 +26,12 @@ custom:
     target: node20
     platform: node
     plugins: esbuildPlugin.cjs
-    packager: "yarn"
+    packager: "npm"
     loader:
       .node: "copy"
     watch:
       pattern: ["src/**/*.ts"]
+    external: ["@sentry/profiling-node"]
   serverless-offline:
     useInProcess: true
     httpPort: 4000
