@@ -6593,9 +6593,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-use-extend-native@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "eslint-plugin-no-use-extend-native@npm:0.7.0"
+"eslint-plugin-no-use-extend-native@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "eslint-plugin-no-use-extend-native@npm:0.7.1"
   dependencies:
     is-get-set-prop: "npm:^2.0.0"
     is-js-type: "npm:^3.0.0"
@@ -6603,7 +6603,7 @@ __metadata:
     is-proto-prop: "npm:^3.0.1"
   peerDependencies:
     eslint: ^9.3.0
-  checksum: 10c0/8e6b9ab5020e4a08db151a471f110e750313a8998866e1a1e9bccf68ddd92f46011238b8ebaa7c9dbebb21aac8628b23d7e274306b115207e811249097059d22
+  checksum: 10c0/62ade6f1e73fa35a0698766c4c652e1f5e3e34145d83b93a676bc45c86c28a198c8af6e5dc33ad9364cf98c5b83dd3bbec0736a10c551ecf6ea13bc32a0f5600
   languageName: node
   linkType: hard
 
@@ -9190,7 +9190,7 @@ __metadata:
     eslint-plugin-eslint-comments: "npm:^3.2.0"
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-n: "npm:^17.9.0"
-    eslint-plugin-no-use-extend-native: "npm:^0.7.0"
+    eslint-plugin-no-use-extend-native: "npm:^0.7.1"
     eslint-plugin-unicorn: "npm:^54.0.0"
     jest: "npm:^29.7.0"
     jsonwebtoken: "npm:^9.0.2"
