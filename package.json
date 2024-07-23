@@ -37,7 +37,7 @@
     "serverless-offline": "^13.6.0",
     "ts-jest": "^29.2.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "@sentry/aws-serverless": "^8.19.0",
