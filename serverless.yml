@@ -12,6 +12,7 @@ provider:
 
 plugins:
   - serverless-offline
+  - serverless-domain-manager
 
 package:
   individually: true
@@ -32,6 +33,16 @@ build:
     external: ["@sentry/profiling-node"]
 
 custom:
+  customDomain:
+    domainName: ko-sports-api.rbcdigital.tech
+    stage: dev
+    certificateName: ko-sports-api.rbcdigital.tech
+    createRoute53Record: true
+    createRoute53IPv6Record: true
+    endpointType: REGIONAL
+    securityPolicy: tls_1_2
+    apiType: rest
+    autoDomain: true
   serverless-offline:
     useInProcess: true
     httpPort: 4000
