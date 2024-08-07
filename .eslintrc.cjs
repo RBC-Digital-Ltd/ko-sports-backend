@@ -13,14 +13,7 @@ module.exports = {
     sourceType: "module",
   },
 
-  plugins: [
-    "@typescript-eslint",
-    "no-use-extend-native",
-    "unicorn",
-    "import",
-    "n",
-    "eslint-comments",
-  ],
+  plugins: ["@typescript-eslint", "unicorn", "import", "n", "eslint-comments"],
 
   extends: [
     "eslint:recommended",
@@ -32,8 +25,6 @@ module.exports = {
   parser: "@typescript-eslint/parser",
 
   rules: {
-    "no-use-extend-native/no-use-extend-native": "error",
-
     "unicorn/filename-case": [
       "error",
       {

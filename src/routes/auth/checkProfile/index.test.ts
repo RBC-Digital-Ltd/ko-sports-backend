@@ -1,6 +1,6 @@
 import { type Context } from "aws-lambda";
-import { handler } from ".";
 import { sql } from "../../../db";
+import { handler } from ".";
 
 jest.mock("../../../db");
 
