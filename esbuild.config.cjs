@@ -13,4 +13,19 @@ if (env.IS_OFFLINE) {
   plugins = [];
 }
 
-module.exports = plugins;
+const config = () => {
+  return {
+    sourcemap: true,
+    bundle: true,
+    minify: false,
+    target: "node20",
+    platform: "node",
+    loader: {
+      ".node": "copy",
+    },
+    external: ["@sentry/profiling-node"],
+    plugins,
+  };
+};
+
+module.exports = config;
