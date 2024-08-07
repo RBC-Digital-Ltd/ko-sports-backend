@@ -1,7 +1,6 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: rahulp959
 service: ko-sports-backend
-frameworkVersion: "3"
-
-useDotenv: true
 
 provider:
   name: aws
@@ -12,13 +11,12 @@ provider:
     API_VERSION: ${env:API_VERSION, '0.0.0-local'}
 
 plugins:
-  - serverless-esbuild
   - serverless-offline
 
 package:
   individually: true
 
-custom:
+build:
   esbuild:
     sourcemap: true
     bundle: true
@@ -32,6 +30,8 @@ custom:
     watch:
       pattern: ["src/**/*.ts"]
     external: ["@sentry/profiling-node"]
+
+custom:
   serverless-offline:
     useInProcess: true
     httpPort: 4000
