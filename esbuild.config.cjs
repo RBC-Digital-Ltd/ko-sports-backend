@@ -13,7 +13,7 @@ if (env.IS_OFFLINE) {
   plugins = [];
 }
 
-const config = (serverless) => {
+const config = () => {
   return {
     sourcemap: true,
     bundle: true,
