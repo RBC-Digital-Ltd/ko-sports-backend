@@ -21,10 +21,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      - run: corepack enable
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -44,10 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      - run: corepack enable
 
       - name: Setup Node 20.x
         uses: actions/setup-node@v4
