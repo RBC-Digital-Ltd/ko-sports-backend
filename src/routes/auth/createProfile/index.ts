@@ -10,7 +10,7 @@ export const handler = wrapHandler(
     INSERT INTO users (
       email, auth0_id
     ) values (
-      ${body.email}, ${event.requestContext.authorizer?.claims?.sub}
+      ${body.email}, ${event.requestContext.authorizer?.principalId}
     ) RETURNING *;
   `;
 

@@ -13,9 +13,7 @@ describe("updateProfile", () => {
       }),
       requestContext: {
         authorizer: {
-          claims: {
-            sub: "auth0|123",
-          },
+          principalId: "auth0|123",
         },
       },
     };

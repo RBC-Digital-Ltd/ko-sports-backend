@@ -9,9 +9,7 @@ describe("checkProfile", () => {
     const event = {
       requestContext: {
         authorizer: {
-          claims: {
-            sub: "auth0|123",
-          },
+          principalId: "auth0|123",
         },
       },
     };
@@ -26,9 +24,7 @@ describe("checkProfile", () => {
     const event = {
       requestContext: {
         authorizer: {
-          claims: {
-            sub: "auth0|123",
-          },
+          principalId: "auth0|123",
         },
       },
     };

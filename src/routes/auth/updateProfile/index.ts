@@ -11,7 +11,7 @@ export const handler = wrapHandler(
     first_name = ${body.firstName},
     last_name = ${body.lastName},
     profile_complete = ${true}
-    WHERE auth0_id = ${event.requestContext.authorizer?.claims?.sub}
+    WHERE auth0_id = ${event.requestContext.authorizer?.principalId}
      RETURNING *;
   `;
 

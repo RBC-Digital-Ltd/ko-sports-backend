@@ -9,9 +9,7 @@ describe("createProfile", () => {
       body: JSON.stringify({ email: "test@test.com" }),
       requestContext: {
         authorizer: {
-          claims: {
-            sub: "auth0|123",
-          },
+          principalId: "auth0|123",
         },
       },
     };
