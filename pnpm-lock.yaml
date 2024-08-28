@@ -31,8 +31,8 @@ importers:
         version: 5.19.0
     devDependencies:
       '@types/aws-lambda':
-        specifier: ^8.10.143
-        version: 8.10.143
+        specifier: ^8.10.145
+        version: 8.10.145
       '@types/eslint':
         specifier: ^8.56.11
         version: 8.56.11
@@ -1542,8 +1542,8 @@ packages:
   '@types/aws-lambda@8.10.122':
     resolution: {integrity: sha512-vBkIh9AY22kVOCEKo5CJlyCgmSWvasC+SWUxL/x/vOwRobMpI/HG1xp/Ae3AqmSiZeLUbOhW0FCD3ZjqqUxmXw==}
 
-  '@types/aws-lambda@8.10.143':
-    resolution: {integrity: sha512-u5vzlcR14ge/4pMTTMDQr3MF0wEe38B2F9o84uC4F43vN5DGTy63npRrB6jQhyt+C0lGv4ZfiRcRkqJoZuPnmg==}
+  '@types/aws-lambda@8.10.145':
+    resolution: {integrity: sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -6164,7 +6164,7 @@ snapshots:
       '@sentry/node': 8.27.0
       '@sentry/types': 8.27.0
       '@sentry/utils': 8.27.0
-      '@types/aws-lambda': 8.10.143
+      '@types/aws-lambda': 8.10.145
     transitivePeerDependencies:
       - '@opentelemetry/api'
       - supports-color
@@ -6851,7 +6851,7 @@ snapshots:
 
   '@types/aws-lambda@8.10.122': {}
 
-  '@types/aws-lambda@8.10.143': {}
+  '@types/aws-lambda@8.10.145': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
