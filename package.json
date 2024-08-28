@@ -31,7 +31,7 @@
     "jest": "^29.7.0",
     "prettier": "^3.3.3",
     "serverless": "^4.2.4",
-    "serverless-domain-manager": "^7.3.8",
+    "serverless-domain-manager": "^7.4.0",
     "serverless-offline": "^14.2.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
