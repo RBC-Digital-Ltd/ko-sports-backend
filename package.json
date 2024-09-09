@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.145",
-    "@types/eslint": "^8.56.11",
+    "@types/eslint": "^8.56.12",
     "@types/jest": "^29.5.12",
     "@types/jsonwebtoken": "^9.0.6",
-    "@types/node": "^20.14.14",
+    "@types/node": "^20.16.5",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
@@ -38,9 +38,9 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@sentry/aws-serverless": "^8.28.0",
+    "@sentry/aws-serverless": "^8.29.0",
     "@sentry/esbuild-plugin": "^2.22.4",
-    "@sentry/profiling-node": "^8.28.0",
+    "@sentry/profiling-node": "^8.29.0",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.1.0",
     "postgres": "^3.4.4",
