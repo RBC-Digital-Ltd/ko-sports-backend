@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@sentry/aws-serverless": "^8.33.0",
-    "@sentry/esbuild-plugin": "^2.22.4",
+    "@sentry/esbuild-plugin": "^2.22.5",
     "@sentry/profiling-node": "^8.33.1",
     "jsonwebtoken": "^9.0.2",
     "jwks-rsa": "^3.1.0",
