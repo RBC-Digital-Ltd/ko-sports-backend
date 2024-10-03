@@ -38,7 +38,7 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@sentry/aws-serverless": "^8.33.0",
+    "@sentry/aws-serverless": "^8.33.1",
     "@sentry/esbuild-plugin": "^2.22.5",
     "@sentry/profiling-node": "^8.33.1",
     "jsonwebtoken": "^9.0.2",
