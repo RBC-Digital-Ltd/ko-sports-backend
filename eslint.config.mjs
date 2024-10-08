@@ -204,7 +204,6 @@ export default tseslint.config(
     },
   },
   {
-    files: ["eslint.config.mjs"],
     rules: {
       "import-x/no-named-as-default-member": "off",
     },
