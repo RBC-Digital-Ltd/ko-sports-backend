@@ -12,8 +12,8 @@ importers:
         specifier: ^8.34.0
         version: 8.34.0(@opentelemetry/api@1.9.0)
       '@sentry/esbuild-plugin':
-        specifier: ^2.22.5
-        version: 2.22.5
+        specifier: ^2.22.6
+        version: 2.22.6
       '@sentry/profiling-node':
         specifier: ^8.34.0
         version: 8.34.0
@@ -1155,12 +1155,12 @@ packages:
     resolution: {integrity: sha512-FsHaUsDb7fcEyeSMBIX8GfQKTt4Mau3PXZG134LmeXTHXYJ7O45NTGlIvvabL6m5A96qbkj+to8iwP8AZ61lLA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/babel-plugin-component-annotate@2.22.5':
-    resolution: {integrity: sha512-+93qwB9vTX1nj4hD8AMWowXZsZVkvmP9OwTqSh5d4kOeiJ+dZftUk4+FKeKkAX9lvY2reyHV8Gms5mo67c27RQ==}
+  '@sentry/babel-plugin-component-annotate@2.22.6':
+    resolution: {integrity: sha512-V2g1Y1I5eSe7dtUVMBvAJr8BaLRr4CLrgNgtPaZyMT4Rnps82SrZ5zqmEkLXPumlXhLUWR6qzoMNN2u+RXVXfQ==}
     engines: {node: '>= 14'}
 
-  '@sentry/bundler-plugin-core@2.22.5':
-    resolution: {integrity: sha512-nfvTthV0aNM9/MwgnCi1WjAlCtau1I4kw6+oZIDOwJRDqGNziz517mYRXSsvCUebtGxDZtPcF7hSEBMSHjpncA==}
+  '@sentry/bundler-plugin-core@2.22.6':
+    resolution: {integrity: sha512-1esQdgSUCww9XAntO4pr7uAM5cfGhLsgTK9MEwAKNfvpMYJi9NUTYa3A7AZmdA8V6107Lo4OD7peIPrDRbaDCg==}
     engines: {node: '>= 14'}
 
   '@sentry/cli-darwin@2.36.6':
@@ -1213,8 +1213,8 @@ packages:
     resolution: {integrity: sha512-adrXCTK/zsg5pJ67lgtZqdqHvyx6etMjQW3P82NgWdj83c8fb+zH+K79Z47pD4zQjX0ou2Ws5nwwi4wJbz4bfA==}
     engines: {node: '>=14.18'}
 
-  '@sentry/esbuild-plugin@2.22.5':
-    resolution: {integrity: sha512-I9fgTbydbZA5cwFflTLRRwEtkee0tvajjW3gh3Lb2ziMA4tnX1VU0iwoWMdiLHVDn3mLUB++L0puYa+QHLY6+Q==}
+  '@sentry/esbuild-plugin@2.22.6':
+    resolution: {integrity: sha512-yyp4lbO6189PhhH7VYITCQY9cmd5Mr5akIzENXUYGsea6uPRPxpgqpydsbrpn6us8qGA8MVE6q/ZmlkgQwcj4g==}
     engines: {node: '>= 14'}
 
   '@sentry/node@8.34.0':
@@ -5707,12 +5707,12 @@ snapshots:
       - '@opentelemetry/api'
       - supports-color
 
-  '@sentry/babel-plugin-component-annotate@2.22.5': {}
+  '@sentry/babel-plugin-component-annotate@2.22.6': {}
 
-  '@sentry/bundler-plugin-core@2.22.5':
+  '@sentry/bundler-plugin-core@2.22.6':
     dependencies:
       '@babel/core': 7.25.2
-      '@sentry/babel-plugin-component-annotate': 2.22.5
+      '@sentry/babel-plugin-component-annotate': 2.22.6
       '@sentry/cli': 2.36.6
       dotenv: 16.4.5
       find-up: 5.0.0
@@ -5768,9 +5768,9 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
 
-  '@sentry/esbuild-plugin@2.22.5':
+  '@sentry/esbuild-plugin@2.22.6':
     dependencies:
-      '@sentry/bundler-plugin-core': 2.22.5
+      '@sentry/bundler-plugin-core': 2.22.6
       unplugin: 1.0.1
       uuid: 9.0.1
     transitivePeerDependencies:
