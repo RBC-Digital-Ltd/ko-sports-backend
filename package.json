@@ -41,7 +41,7 @@
     "typescript-eslint": "^8.12.2"
   },
   "dependencies": {
-    "@sentry/aws-serverless": "^8.35.0",
+    "@sentry/aws-serverless": "^8.36.0",
     "@sentry/esbuild-plugin": "^2.22.6",
     "@sentry/profiling-node": "^8.35.0",
     "jsonwebtoken": "^9.0.2",
