@@ -88,8 +88,8 @@ importers:
         specifier: ^7.4.0
         version: 7.4.0(@aws-sdk/client-sso-oidc@3.645.0(@aws-sdk/client-sts@3.645.0))(serverless@4.4.7)
       serverless-offline:
-        specifier: ^14.3.3
-        version: 14.3.3(serverless@4.4.7)
+        specifier: ^14.3.4
+        version: 14.3.4(serverless@4.4.7)
       ts-jest:
         specifier: ^29.2.5
         version: 29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.6.3)))(typescript@5.6.3)
@@ -3375,8 +3375,8 @@ packages:
     peerDependencies:
       serverless: '>=2.60'
 
-  serverless-offline@14.3.3:
-    resolution: {integrity: sha512-q/m/5BclrBQiF9mqfvGl2xCz+hs5+MGwdTou6tq/Jud+bExdF3rofl/bKVu7ahlV7FIjOo0Xfa0LLI404oL61g==}
+  serverless-offline@14.3.4:
+    resolution: {integrity: sha512-PlLyllDHSHSVCv3vcRT5fFxSyjDBVHMLirzzfBK0NTG7JvL90mQvSedBGncHD2XcaPvjxo8ZW6OfEMEe9nQKuQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       serverless: ^4.0.0
@@ -8466,7 +8466,7 @@ snapshots:
       - aws-crt
       - supports-color
 
-  serverless-offline@14.3.3(serverless@4.4.7):
+  serverless-offline@14.3.4(serverless@4.4.7):
     dependencies:
       '@aws-sdk/client-lambda': 3.645.0
       '@hapi/boom': 10.0.1
