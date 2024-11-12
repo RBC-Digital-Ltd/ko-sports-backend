@@ -2859,8 +2859,8 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  jsonpath-plus@10.0.4:
-    resolution: {integrity: sha512-UjLP1tV5VCvK4EkjlTPvtTpKKAv+4SXHPk8ApTp+bCit5rVzS205qoMpaTkTOHK/oqy50hv4HzIeuL0ciX01wA==}
+  jsonpath-plus@10.1.0:
+    resolution: {integrity: sha512-gHfV1IYqH8uJHYVTs8BJX1XKy2/rR93+f8QQi0xhx95aCiXn1ettYAd5T+7FU6wfqyDoX/wy0pm/fL3jOKJ9Lg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -7962,7 +7962,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  jsonpath-plus@10.0.4:
+  jsonpath-plus@10.1.0:
     dependencies:
       '@jsep-plugin/assignment': 1.2.1(jsep@1.3.9)
       '@jsep-plugin/regex': 1.0.3(jsep@1.3.9)
@@ -8487,7 +8487,7 @@ snapshots:
       java-invoke-local: 0.0.6
       jose: 5.8.0
       js-string-escape: 1.0.1
-      jsonpath-plus: 10.0.4
+      jsonpath-plus: 10.1.0
       jsonschema: 1.4.1
       jszip: 3.10.1
       luxon: 3.5.0
