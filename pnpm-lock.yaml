@@ -82,14 +82,14 @@ importers:
         specifier: ^3.4.1
         version: 3.4.1
       serverless:
-        specifier: ^4.4.12
-        version: 4.4.12
+        specifier: ^4.4.13
+        version: 4.4.13
       serverless-domain-manager:
         specifier: ^7.4.0
-        version: 7.4.0(@aws-sdk/client-sso-oidc@3.645.0(@aws-sdk/client-sts@3.645.0))(serverless@4.4.12)
+        version: 7.4.0(@aws-sdk/client-sso-oidc@3.645.0(@aws-sdk/client-sts@3.645.0))(serverless@4.4.13)
       serverless-offline:
         specifier: ^14.3.4
-        version: 14.3.4(serverless@4.4.12)
+        version: 14.3.4(serverless@4.4.13)
       ts-jest:
         specifier: ^29.2.5
         version: 29.2.5(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@20.16.11)(ts-node@10.9.2(@types/node@20.16.11)(typescript@5.7.2)))(typescript@5.7.2)
@@ -3423,8 +3423,8 @@ packages:
     peerDependencies:
       serverless: ^4.0.0
 
-  serverless@4.4.12:
-    resolution: {integrity: sha512-mEem3FKWcHTVLh/dCdjusctCx6Qa9xOXkyHeIWggEruwOglhlav8aOPzdst21eYWj3qCAKG4KYalZJzfikEWIg==}
+  serverless@4.4.13:
+    resolution: {integrity: sha512-JPFKWOdt+swLEy1FYnsYzehiEUMhZhoc7TcHj0rHIHOsCIE1qUQpvPrfJa+/sIz/GEjciRNR/XAB7TE578v+sA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -8560,7 +8560,7 @@ snapshots:
 
   semver@7.6.3: {}
 
-  serverless-domain-manager@7.4.0(@aws-sdk/client-sso-oidc@3.645.0(@aws-sdk/client-sts@3.645.0))(serverless@4.4.12):
+  serverless-domain-manager@7.4.0(@aws-sdk/client-sso-oidc@3.645.0(@aws-sdk/client-sts@3.645.0))(serverless@4.4.13):
     dependencies:
       '@aws-sdk/client-acm': 3.645.0
       '@aws-sdk/client-api-gateway': 3.645.0
@@ -8576,13 +8576,13 @@ snapshots:
       '@smithy/types': 2.12.0
       '@smithy/util-retry': 2.2.0
       proxy-agent: 6.4.0
-      serverless: 4.4.12
+      serverless: 4.4.13
     transitivePeerDependencies:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
       - supports-color
 
-  serverless-offline@14.3.4(serverless@4.4.12):
+  serverless-offline@14.3.4(serverless@4.4.13):
     dependencies:
       '@aws-sdk/client-lambda': 3.645.0
       '@hapi/boom': 10.0.1
@@ -8605,7 +8605,7 @@ snapshots:
       node-fetch: 3.3.2
       node-schedule: 2.1.1
       p-memoize: 7.1.1
-      serverless: 4.4.12
+      serverless: 4.4.13
       tree-kill: 1.2.2
       tsx: 4.19.0
       velocityjs: 2.0.6
@@ -8616,7 +8616,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  serverless@4.4.12:
+  serverless@4.4.13:
     dependencies:
       axios: 1.7.7
       axios-proxy-builder: 0.1.2
