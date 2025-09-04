@@ -50,7 +50,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Login to AWS
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v5
         with:
           role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE }}
           role-session-name: KoSportsDeploy
